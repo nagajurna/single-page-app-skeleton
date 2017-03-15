@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+debug.log
+public/*.html
+public/**/**/*.html
+public/**/*.css
+public/**/*.js
+public/temp
+*.js.map

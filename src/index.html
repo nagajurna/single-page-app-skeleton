@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>App</title>
+  <meta name="keywords" content="Single page app, skeleton, JavaScript, AJAX, NodeJs">
+  <meta name="description" content="A single page application skeleton">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="stylesheets/style.css" />
+  <link rel="stylesheet" href="stylesheets/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+  <script src="https://www.promisejs.org/polyfills/promise-7.0.4.min.js"></script>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a id="brand" href="#/">App</a></li>
+		</ul>
+		<ul id="links" class="right">
+			<li id="user" class="on"><a id="side-menu-open" href=""></a></li>
+			<li id="admin" ><a href="#/admin/">Admin</a></li>
+		</ul>
+	</nav>
+	<div id="container"></div>
+	<div id="side-menu">
+		<div id="side-menu-header">
+			<a id="side-menu-close" href="">Fermer</a>
+		</div>
+		<div id="side-menu-container"></div>
+	</div>
+	<script src="javascripts/script.js"></script>
+</body>
+</html>
