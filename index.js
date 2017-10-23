@@ -42,7 +42,7 @@ app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use('/users', users);
 //app.use('/api', api);
 
-let port = process.env.PORT || '3000';
+let port = process.env.PORT || '4000';
 app.set('port', port);
 
 app.listen(port, () => {

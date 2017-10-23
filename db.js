@@ -1,7 +1,12 @@
 const mongoose = require('mongoose');
 
-//mongoose.connect('mongodb://localhost/gallery');
-mongoose.connect(process.env.PROD_MONGODB);
+mongoose.connect('mongodb://localhost/gallery', {
+  useMongoClient: true
+});
+
+//mongoose.connect(process.env.PROD_MONGODB, {
+//  useMongoClient: true
+//});
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

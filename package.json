@@ -10,38 +10,47 @@
   "keywords": [
     "JavaScript",
     "AJAX",
+    "Promises",
     "NodeJs",
     "Single-page-app"
   ],
   "author": "nagajurna",
   "license": "ISC",
   "dependencies": {
-    "base64url": "^2.0.0",
-    "bcrypt": "^1.0.2",
-    "body-parser": "^1.16.0",
-    "compression": "^1.6.2",
-    "connect-mongo": "^1.3.2",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.14.1",
-    "express-session": "^1.15.0",
-    "html-entities": "^1.2.0",
-    "mongodb": "^2.2.22",
-    "mongoose": "^4.8.1",
-    "nodemailer": "^3.1.4",
-    "q": "^1.4.1",
-    "serve-favicon": "^2.3.2"
+    "base64url": "2.0.0",
+    "bcrypt": "1.0.3",
+    "body-parser": "1.18.2",
+    "compression": "1.7.1",
+    "connect-mongo": "2.0.0",
+    "cookie-parser": "1.4.3",
+    "express": "4.16.2",
+    "express-session": "1.15.6",
+    "html-entities": "1.2.1",
+    "mongodb": "2.2.33",
+    "mongoose": "4.12.4",
+    "nodemailer": "4.3.0",
+    "q": "1.5.1",
+    "serve-favicon": "2.4.5"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.22.0",
-    "chai": "^3.5.0",
-    "chai-http": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-clean-css": "^3.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-sourcemaps": "^2.4.1",
-    "gulp-uglify": "^2.0.1",
-    "mocha": "^3.2.0"
+    "babel-core": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "chai": "4.1.2",
+    "chai-http": "3.0.0",
+    "gulp": "3.9.1",
+    "gulp-babel": "7.0.0",
+    "gulp-clean-css": "3.9.0",
+    "gulp-concat": "2.6.1",
+    "gulp-htmlmin": "3.0.0",
+    "gulp-sourcemaps": "2.6.1",
+    "gulp-uglify": "3.0.0",
+    "mocha": "4.0.1"
+  },
+  "engines": {
+    "node": "6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nagajurna/single-page-app-skeleton"
   }
 }
